@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.9'
+gem 'nokogiri'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,12 +27,17 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem 'rspec-rails', '2.6.1'
+  gem 'rspec-rails'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
-  gem 'webrat', '0.7.1'
+  gem 'rspec-rails'
+  gem 'webrat', '0.7.1'                                                                                                                                                                 
+  gem 'autotest'                                                        
+  gem 'autotest-rails-pure'                                             
+  gem 'autotest-fsevent'                                                
+  gem 'autotest-growl'
+  gem 'spork'
 end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
