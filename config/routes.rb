@@ -2,8 +2,9 @@ SampleApp::Application.routes.draw do
   get "pages/home"
   get "pages/contact"
   get "pages/about"
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
+  get "pages/help"
+# The priority is based upon order of creation:
+  # first created -> ighest priority.
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
